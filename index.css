@@ -1,0 +1,51 @@
+/* Reset and full height setup */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('images/Daylight.jpg') no-repeat center center / cover;
+  background-attachment: fixed;
+  transition: background 0.6s ease-out
+}
+
+/* Dark mode override */
+body.togglemode {
+  background: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Beautiful-night-Images-hd.jpg') 
+    no-repeat center center / cover;
+  background-attachment: fixed;
+}
+
+/* Flex container to center everything */
+.center-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card design */
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+/* Toggle emoji */
+#word {
+  font-size: 32px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Message */
+.message {
+  font-size: 16px;
+  color: #ddd;
+  margin: 0;
+}
