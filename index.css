@@ -4,14 +4,14 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('Daylight.jpg') no-repeat center center / cover;
+  background: url('https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg') no-repeat center center / cover;
   background-attachment: fixed;
   transition: background 0.6s ease-out
 }
 
 /* Dark mode override */
 body.togglemode {
-  background: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Beautiful-night-Images-hd.jpg') 
+  background: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg') 
     no-repeat center center / cover;
   background-attachment: fixed;
 }
