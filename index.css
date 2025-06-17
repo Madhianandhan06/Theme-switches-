@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('images/Daylight.jpg') no-repeat center center / cover;
+  background: url('Daylight.jpg') no-repeat center center / cover;
   background-attachment: fixed;
   transition: background 0.6s ease-out
 }
