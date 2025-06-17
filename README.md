@@ -13,7 +13,7 @@ Click the emoji to switch between modes.
 - https://madhianandhan06.github.io/Theme-switches-/
 
 - 📸 Image Credits
-- 
+ 
 🌞 Day Theme Image:
 Photo by Asad Photo Maldives: https://www.pexels.com/photo/photo-of-seashore-during-daytime-1450360/
 
